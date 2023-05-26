@@ -96,7 +96,8 @@ class RestaurantDetail extends StatelessWidget {
               ),
               Text(
                 restaurant.description,
-                overflow: TextOverflow.clip,
+                maxLines: 4,
+                overflow: TextOverflow.ellipsis,
               ),
               const SizedBox(
                 height: 20,
